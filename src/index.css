@@ -1,13 +1,54 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    height: 100vh;
+    background: linear-gradient(to top, #2E4583,#293556)   ;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.custom-width {
+    width: screen;
+    background: linear-gradient(to top, rgba(193, 193, 193, 0.564), rgb(230, 229, 228));
 }
+
+.custom-color {
+    
+    width: 70vw;
+    background: linear-gradient(to top, #b9bbbf, #e7eed0)
+}
+
+.custom-input {
+    background-color: #e7eed0;
+}
+
+.card-style {
+    width: 83vw;
+    height: 90vh;
+    background-color: #e7eed0;
+}
+
+.bg-task-color {
+    background-color: #eff4dd;
+}
+
+  
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-exit {
+  opacity: 0;
+}
+
+.fade-exit-active {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+
